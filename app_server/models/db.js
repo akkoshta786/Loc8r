@@ -3,7 +3,7 @@ require('./location');
 
 // Defined a database connection string
 // Opened a Mongoose connection at application startup
-var dbURI = "mongodb://localhost:27017/Loc8r";
+var dbURI = process.env.DATABASE_URL;
 mongoose.connect(dbURI);
 
 // Monitored the Mongoose connection events

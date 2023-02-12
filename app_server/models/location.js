@@ -24,4 +24,4 @@ var locationSchema = new mongoose.Schema({
   reviews: [reviewSchema]
 });
 
-mongoose.model('Location', locationSchema);Xy
+mongoose.model('Location', locationSchema);
