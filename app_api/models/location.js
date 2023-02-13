@@ -8,6 +8,7 @@ var openingTimeSchema = new mongoose.Schema({
 })
 
 var reviewSchema = new mongoose.Schema({
+  _id: String,
   author: String,
   rating: { type: Number, required: true, min: 0, max: 5 },
   reviewText: String,
