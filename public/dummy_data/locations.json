@@ -10,10 +10,6 @@
     "Food",
     "Premium wifi"
   ],
-  "coords": [
-    77.586264,
-    13.063669
-  ],
   "openingTimes": [
     {
       "days": "Monday - Friday",
@@ -72,7 +68,14 @@
         "$oid": "63e4ec6292fa950f0d60120c"
       }
     }
-  ]
+  ],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.586264,
+      13.063669
+    ]
+  }
 },{
   "_id": {
     "$oid": "63e4ee7b92fa950f0d601210"
@@ -84,10 +87,6 @@
     "Chips",
     "Water",
     "Refreshment"
-  ],
-  "coords": [
-    77.5866348,
-    13.0640035
   ],
   "openingTimes": [
     {
@@ -147,7 +146,14 @@
         "$oid": "63e4ee7b92fa950f0d60120f"
       }
     }
-  ]
+  ],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.5866348,
+      13.0640035
+    ]
+  }
 },{
   "_id": {
     "$oid": "63e4f03d92fa950f0d601214"
@@ -160,10 +166,6 @@
     "Wifi",
     "Refreshment",
     "Water"
-  ],
-  "coords": [
-    77.5870963,
-    13.0642176
   ],
   "openingTimes": [
     {
@@ -217,5 +219,12 @@
         "$oid": "63e4f03d92fa950f0d601213"
       }
     }
-  ]
+  ],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      77.5870963,
+      13.0642176
+    ]
+  }
 }]
